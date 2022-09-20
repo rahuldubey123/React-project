@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: none;
+}
+body {
+  background-color: peru;
+  display: grid;
+  place-content: center;
+  font-family: "consolas", sans-serif;
+  height: 100vh;
+  font-size: 2rem;
+}
+
+.box1 {
+  height: 80vh;
+  width: 50vh;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  border: solid red 2px;
+}
+
+.box2 {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+
+}
+
+.screen {
+  grid-column: 1 / -1;
+  color: white;
+  text-align: right;
+  padding: 0.5rem;
+  font-size: 4rem;
+  overflow: hidden;
+}
+
+.btn {
+  display: grid;
+  place-content: center;
+  background-color: rgb(54, 52, 52);
+  border-radius: 35%;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border: solid red 2px;
+}
+.btn:hover {
+  background-color: gray;
+}
+
+.light-gray {
+  background-color: rgb(44, 38, 38);
+  color: green;
+}
+
+.light-gray:hover {
+  background-color: white;
+}
+
+.orange {
+  background-color: rgb(44, 38, 38);
+  color: green;
+}
+
+.orange:hover {
+  background-color: white;
+  color: orange;
+}
+
+.zero {
+  grid-column: 1 ;
+  border-radius: 25px;
+  place-content: unset;
+  align-items: center;
+  padding-left: 2rem;
+}
+.red{
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  font-family: "Roboto,san-serif";
+}
+.red:hover{
+  background-color: white;
+  color: black;
+}
+#footer{
+  font-size: 0.7rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-style: italic;
+  background-color: black;
+  border-radius: 10px;
+  border: solid red 2px;
+}
+#footer:hover{
+  background-color: wheat;
+  color: black;
+}
+.plus{
+  background-color: darkgreen;
+  color: white;
+}
+
+.plus:hover{
+  background-color: rgb(130, 235, 130);
+  color: white;
+}
+.clear{
+  background-color: rgb(44, 38, 38);
+  color: red;
+}
