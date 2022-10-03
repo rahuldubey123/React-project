@@ -90,7 +90,7 @@ body {
   background-color: yellow;
   color: black;
   font-weight: bold;
-  font-family: "Roboto,san-serif";
+  font-family: "consolas","Cursive";
 }
 .red:hover{
   background-color: white;
