@@ -102,13 +102,13 @@ function App() {
       <div className='box2'>
         <div className='screen'>
           {input !== "" || input === "0" ? (
-            <NumberFormatBase
+            <NumericFormat 
               value={input}
               displayType={"text"}
               thousandSeparator={true}
             />
           ) : (
-            <NumberFormatBase
+            <NumericFormat
               value={preState}
               displayType={"text"}
               thousandSeparator={true}
